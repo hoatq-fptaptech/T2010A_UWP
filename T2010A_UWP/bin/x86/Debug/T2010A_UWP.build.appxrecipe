@@ -70,6 +70,9 @@
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Layout.xbf">
+      <PackagePath>Layout.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
@@ -78,6 +81,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Pages\DemoForm.xbf">
       <PackagePath>Pages\DemoForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

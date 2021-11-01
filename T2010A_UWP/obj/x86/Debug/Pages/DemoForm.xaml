@@ -17,7 +17,7 @@
             <TextBox x:ConnectionId='5' x:Name="inputFullname" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Full name"/>
             <TextBox x:ConnectionId='6' x:Name="inputEmail" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Email"/>
             <TextBox x:ConnectionId='7' x:Name="inputPhone" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Phone number"/>
-            <Button x:ConnectionId='8'                       Margin="20" Background="Beige" HorizontalAlignment="Center" Width="150" Content="Submit"/>
+            <Button x:ConnectionId='8'                Margin="20" Background="Beige" HorizontalAlignment="Center" Width="150" Content="Submit"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="0,100,0,0">
             <TextBlock x:ConnectionId='2' x:Name="txtFullname" Text="Full name" FontSize="20" Margin="150,20,0,0"/>
