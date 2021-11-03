@@ -34,8 +34,8 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -63,6 +63,9 @@
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\T2010A_UWP.xr.xml">
       <PackagePath>T2010A_UWP.xr.xml</PackagePath>
