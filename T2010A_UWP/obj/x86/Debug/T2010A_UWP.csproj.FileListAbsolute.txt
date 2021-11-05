@@ -63,3 +63,4 @@ C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\obj\x86\Debug\Layout.xaml
 C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\obj\x86\Debug\Pages\Home.xaml
 C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\obj\x86\Debug\Layout.xbf
 C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\obj\x86\Debug\Pages\Home.xbf
+C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Newtonsoft.Json.dll

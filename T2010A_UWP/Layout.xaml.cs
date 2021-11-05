@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using T2010A_UWP.Models.Entity;
+using T2010A_UWP.Services;
 using T2010A_UWP.Models;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -32,6 +34,22 @@ namespace T2010A_UWP
             Menu.Items.Add(item1);
             Menu.Items.Add(item2);
             Menu.Items.Add(item3);
+            // day la cho lay data tu api ve va print ra ListView
+            RenderCategoriesToMenu();
+        }
+
+        public async void RenderCategoriesToMenu()
+        {
+            // chi viec goi object cuar ApiService vao dung
+            ApiService apiService = new ApiService();
+            Categories categories = await apiService.GetCategories();
+            if(categories != null)
+            {
+                foreach(var c in categories.data)
+                {
+                    Menu.Items.Add(new MenuItem() { Name=c.name,Icon= "\uE946",MenuPage="category" });
+                }
+            }
         }
 
         private void IconClick_Tapped(object sender, TappedRoutedEventArgs e)

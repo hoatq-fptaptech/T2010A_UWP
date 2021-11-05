@@ -33,6 +33,7 @@ namespace T2010A_UWP.Pages
             Products.Items.Add(p1);
             Products.Items.Add(p2);
             Products.Items.Add(p3);
+           
         }
     }
 }
