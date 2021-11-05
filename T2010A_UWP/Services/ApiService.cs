@@ -7,6 +7,7 @@ using T2010A_UWP.Models.Entity;
 using System.Net.Http;
 using System.Net;
 using Newtonsoft.Json;
+using T2010A_UWP.Adapters;
 namespace T2010A_UWP.Services
 {
     class ApiService
@@ -15,7 +16,8 @@ namespace T2010A_UWP.Services
         public async Task<Categories> GetCategories()
         {
             HttpClient client = new HttpClient();// lo việc kết nối api và lấy dữ liệu về (shipper)
-            var rs = await client.GetAsync("http://foodgroup.herokuapp.com/api/menu"); // lấy data từ api về
+            ApiURL uRL = ApiURL.GetInstance();
+            var rs = await client.GetAsync(uRL.GetApiCategories()); // lấy data từ api về
             if(rs.StatusCode == HttpStatusCode.OK)
             {
                 string rsContent = await rs.Content.ReadAsStringAsync();// chuyeenr dữ liệu thành 1 string
