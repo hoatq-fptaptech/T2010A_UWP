@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using T2010A_UWP.Models.Entity;
 namespace T2010A_UWP.Models
 {
     class MenuItem
@@ -12,6 +12,6 @@ namespace T2010A_UWP.Models
         public string MenuPage { get; set; }
         public string Icon { get; set; }
         //indexer - ve tim hieu lai
-
+        public Category Category { get; set; }
     }
 }

@@ -47,7 +47,7 @@ namespace T2010A_UWP
             {
                 foreach(var c in categories.data)
                 {
-                    Menu.Items.Add(new MenuItem() { Name=c.name,Icon= "\uE946",MenuPage="category" });
+                    Menu.Items.Add(new MenuItem() { Name=c.name,Icon= "\uE946",MenuPage="category",Category=c });
                 }
             }
         }
@@ -65,6 +65,7 @@ namespace T2010A_UWP
                 case "homepage":MainFrame.Navigate(typeof(Pages.Home));break;
                 case "infomation": MainFrame.Navigate(typeof(Pages.DemoForm));break;
                 case "demo": MainFrame.Navigate(typeof(Pages.Demo));break;
+                case "category": MainFrame.Navigate(typeof(Pages.Categories),selected.Category);break;
             }
         }
     }

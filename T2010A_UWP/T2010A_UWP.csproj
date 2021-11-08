@@ -116,6 +116,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Adapters\ApiURL.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -128,6 +129,9 @@
     <Compile Include="Models\Entity\DTO.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Pages\Categories.xaml.cs">
+      <DependentUpon>Categories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
@@ -168,6 +172,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\Categories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Demo.xaml">
       <SubType>Designer</SubType>
