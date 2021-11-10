@@ -15,4 +15,7 @@ Pages\DemoForm.xbf
 Pages\Home.xbf
 T2010A_UWP.xr.xml
 Properties\Default.rd.xml
+sqlite3.dll
 WinMetadata\Windows.winmd
+SQLitePCL.Ext.dll
+SQLitePCL.Ext.pri

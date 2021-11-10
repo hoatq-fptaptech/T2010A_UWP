@@ -14,15 +14,18 @@
         <GridView x:Name="Products" Margin="10">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="model:Food">
-                    <StackPanel>
-                        <Image Width="150">
-                            <Image.Source>
-                                <BitmapImage UriSource="{x:Bind image}"/>
-                            </Image.Source>
-                        </Image>
-                        <TextBlock Text="{x:Bind name}" FontSize="16"/>
-                        <TextBlock Text="{x:Bind price}" FontSize="14" Foreground="Red"/>
-                    </StackPanel>
+                    <GridViewItem>
+                        <StackPanel>
+                            <Image Width="150">
+                                <Image.Source>
+                                    <BitmapImage UriSource="{x:Bind image}"/>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock Text="{x:Bind name}" FontSize="16"/>
+                            <TextBlock Text="{x:Bind price}" FontSize="14" Foreground="Red"/>
+                            <Button Click="Add_To_Cart" Tag="{x:Bind id}" Content="Add To Cart" FontSize="14" Background="Orange" Foreground="White"/>
+                        </StackPanel>
+                    </GridViewItem>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>

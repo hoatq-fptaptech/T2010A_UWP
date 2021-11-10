@@ -49,5 +49,22 @@ namespace T2010A_UWP.Pages
                 }
             }
         }
+
+        private void Add_To_Cart(object sender, RoutedEventArgs e)
+        {
+            var id = ((Button)sender).Tag;
+            // tu id lay ra food tu API
+            Food f = new Food() { id = 1, name = "Demo food", image = "...", price = 12000 };
+            //Food f = Products.SelectedItem as Food;
+            CartItem item = new CartItem() { Id = f.id, Name = f.name, Image = f.image, Price = f.price, Qty = 1 };
+            CartService service = new CartService();
+            service.AddToCart(item);
+
+            var list = service.GetCart();
+            // vi du update item
+            service.UpdateItem(item, 5);
+        }
+
+   
     }
 }

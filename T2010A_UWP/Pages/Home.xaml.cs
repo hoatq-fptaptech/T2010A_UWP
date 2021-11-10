@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using T2010A_UWP.Models;
 using Windows.UI.Xaml.Media.Imaging;
+using T2010A_UWP.Adapters;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace T2010A_UWP.Pages
@@ -33,7 +34,7 @@ namespace T2010A_UWP.Pages
             Products.Items.Add(p1);
             Products.Items.Add(p2);
             Products.Items.Add(p3);
-           
+            SQLiteHelpler sQ = SQLiteHelpler.GetInstance();
         }
     }
 }
