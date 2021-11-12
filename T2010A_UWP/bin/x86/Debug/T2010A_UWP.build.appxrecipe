@@ -97,6 +97,9 @@
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Pages\Demo.xbf">
       <PackagePath>Pages\Demo.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Pages\DemoFilePage.xbf">
+      <PackagePath>Pages\DemoFilePage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Aptech\SEM3\T2010A_UWP\T2010A_UWP\T2010A_UWP\bin\x86\Debug\Pages\DemoForm.xbf">
       <PackagePath>Pages\DemoForm.xbf</PackagePath>
     </AppxPackagedFile>

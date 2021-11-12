@@ -31,9 +31,11 @@ namespace T2010A_UWP
             var item1 = new MenuItem() {Name="Home",MenuPage="homepage",Icon="\uE80F" };
             var item2 = new MenuItem() {Name="Infomation",MenuPage="infomation",Icon="\uE946" };
             var item3 = new MenuItem() {Name="Demo",MenuPage="demo",Icon="\uE946" };
+            var item4 = new MenuItem() {Name="File Handle",MenuPage= "filehandle", Icon="\uE946" };
             Menu.Items.Add(item1);
             Menu.Items.Add(item2);
             Menu.Items.Add(item3);
+            Menu.Items.Add(item4);
             // day la cho lay data tu api ve va print ra ListView
             RenderCategoriesToMenu();
         }
@@ -66,6 +68,7 @@ namespace T2010A_UWP
                 case "infomation": MainFrame.Navigate(typeof(Pages.DemoForm));break;
                 case "demo": MainFrame.Navigate(typeof(Pages.Demo));break;
                 case "category": MainFrame.Navigate(typeof(Pages.Categories),selected.Category);break;
+                case "filehandle": MainFrame.Navigate(typeof(Pages.DemoFilePage));break;
             }
         }
     }

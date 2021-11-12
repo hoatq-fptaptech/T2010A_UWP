@@ -23,9 +23,11 @@ namespace T2010A_UWP.Pages
     /// </summary>
     public sealed partial class Categories : Page
     {
+        public static Food food;
         public Categories()
         {
             this.InitializeComponent();
+            
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -35,6 +37,7 @@ namespace T2010A_UWP.Pages
             CategoryName.Text = category.name;
             // Da co category -> lay api du lieu ve
             RenderFoods(category);
+            // neu o page FoodDetail thi api da co tu day
         }
 
         private async void RenderFoods(Category category)

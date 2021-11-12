@@ -137,6 +137,9 @@
     <Compile Include="Pages\Demo.xaml.cs">
       <DependentUpon>Demo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\DemoFilePage.xaml.cs">
+      <DependentUpon>DemoFilePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\DemoForm.xaml.cs">
       <DependentUpon>DemoForm.xaml</DependentUpon>
     </Compile>
@@ -146,6 +149,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApiService.cs" />
     <Compile Include="Services\CartService.cs" />
+    <Compile Include="Services\FileHandleService.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -182,6 +186,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Demo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\DemoFilePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

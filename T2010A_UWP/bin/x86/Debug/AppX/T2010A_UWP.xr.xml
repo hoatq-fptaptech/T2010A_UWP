@@ -60,6 +60,8 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -79,6 +81,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>
@@ -121,6 +124,7 @@
       <RootProperty Name="Points" />
     </RootType>
     <RootType FullName="T2010A_UWP.Pages.Demo" />
+    <RootType FullName="T2010A_UWP.Pages.DemoFilePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
