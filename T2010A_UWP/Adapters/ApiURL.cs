@@ -40,5 +40,10 @@ namespace T2010A_UWP.Adapters
         {
             return String.Format(baseURL + "/api/category/"+Convert.ToString(id));
         }
+
+        public string GetApiCreateOrder()
+        {
+            return String.Format(baseURL + "/api/create-order");
+        }
     }
 }

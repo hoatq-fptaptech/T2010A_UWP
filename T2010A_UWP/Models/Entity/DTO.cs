@@ -40,4 +40,16 @@ namespace T2010A_UWP.Models.Entity
         public FoodsOfCategory data { get; set; }
     }
 
+    public class OrderDetail
+    {
+        public int order_id { get; set; }
+    }
+
+    public class CreateOrder
+    {
+        public string message { get; set; }
+        public OrderDetail data { get; set; }
+    }
+
+
 }
